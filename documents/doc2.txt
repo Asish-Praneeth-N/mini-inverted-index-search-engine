@@ -1,0 +1,13 @@
+Information retrieval is the foundation of every modern search engine. The goal of an IR system is to efficiently locate 
+relevant information from large document collections. Classic IR concepts such as inverted indexes, term frequency, 
+inverse document frequency, and ranking models form the backbone of search platforms used worldwide.
+
+An inverted index allows search engines to map each token or term to the list of documents in which it appears. This 
+structure enables fast lookups and dramatically reduces the amount of work required during querying. Ranking algorithms 
+such as TF-IDF score documents based on how important a word is within a particular document and how rare it is across 
+the entire collection.
+
+Search engines further enhance relevance with techniques like stemming, stopword removal, phrase queries, and proximity 
+search. More advanced systems use models like BM25 or transformer-based embeddings to understand semantic meaning instead 
+of relying only on raw keyword matching. As data volumes grow, distributed indexing, cache layers, and replication become 
+critical to ensure high-performance search under heavy load.

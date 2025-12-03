@@ -1,0 +1,15 @@
+Modern distributed systems are designed to handle massive amounts of data and millions of user requests per second. 
+Companies like Google, Amazon, and Meta rely on these large-scale architectures to power search engines, cloud platforms, 
+streaming services, and real-time communication tools. A distributed system typically runs across multiple machines, 
+often spanning different regions or availability zones, and is designed with principles such as replication, fault 
+tolerance, load balancing, and horizontal scalability.
+
+One of the key challenges in distributed computing is maintaining consistency while achieving high availability. 
+Techniques like sharding, consensus algorithms (such as Paxos and Raft), and distributed hash tables help coordinate 
+updates across nodes. Engineers must also consider system latency, network failures, and data partitioning when designing 
+high-performance backend services.
+
+Search engines, in particular, depend heavily on distributed indexing and retrieval algorithms. Processing billions of 
+documents requires parallel indexing pipelines, optimized storage layers, and query-serving systems that can return 
+relevant results within milliseconds. These systems combine information retrieval techniques with distributed processing 
+to ensure scalability and accuracy.
